@@ -1,0 +1,122 @@
+.section-offers .section-offers__wrapper {
+    margin: 140px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section-offers .section-offers__wrapper .offers__item-l {
+    background: url(../../img/section2_get_garden.png);
+    margin-right: 50px;  
+}
+
+.section-offers .section-offers__wrapper .offers__item-r {
+    background: url(../../img/section2_offer.png); 
+}
+
+.section-offers .section-offers__wrapper .offers-item {
+    width: 665px;
+    height: 378px;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.offers__item-l .tagline,
+.offers__item-l h3  {
+    color: #fff;    
+}
+
+.offers-item h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    height: 104px;
+    margin-left: 55px;
+}
+
+.offers__item-l h3 {
+    max-width: 219px;
+}
+
+.offers__item-r h3 {
+    max-width: 264px
+}
+
+.offers__item-l h3:hover,
+.offers__item-r h3:hover {
+    color: #EFD372;
+
+}
+.offers-item .tagline {
+    margin-top: 105px;
+    margin-left: 55px;
+    display: block;
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .section-offers .section-offers__wrapper .offers__item-l {
+        margin-right: 0; 
+        margin-bottom: 50px;
+    }
+}
+/*2560, 1920,
+1440, 1280, 1152, 1024, 800, 768, 640, 425, 375, 320.*/
+
+@media only screen and (max-width: 640px) {
+
+    .section-offers .section-offers__wrapper .offers-item  {
+        max-width: 100%;
+        width: 590px;
+    }
+
+    .section-offers .section-offers__wrapper .offers-item  {
+        margin: 0 20px 50px;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+
+    .section-offers .section-offers__wrapper {
+        margin: 100px 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .section-offers .section-offers__wrapper .offers__item-l {
+        background-position: 20% 50%; 
+    }
+    
+    .section-offers .section-offers__wrapper .offers-item  {
+        max-width: 100%;
+        width: 590px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .section-offers .section-offers__wrapper .offers__item-l {
+        background-position: 20% 50%; 
+    }
+    
+    .section-offers .section-offers__wrapper .offers-item  {
+        max-width: 100%;
+        width: 590px;
+        height: 300px;
+    }
+
+    .offers-item h3 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-left: 25px;
+    }
+    
+    .offers-item .tagline {
+        margin-left: 25px;
+    }
+}
+
+

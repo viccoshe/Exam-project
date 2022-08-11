@@ -1,0 +1,19 @@
+@import "./styles/normalize.css";
+@import "./styles/header.css";
+@import "./styles/section-offers.css";
+@import "./styles/section__about.css";
+@import "./styles/section-products.css";
+@import "./styles/section-testimonials.css";
+@import "./styles/section-organic.css";
+@import "./styles/section-eco.css";
+@import "./styles/section-categories.css";
+@import "./styles/section-subscription.css";
+@import "./styles/footer-map.css";
+
+
+@font-face {
+    font-family: "Yellowtail"; 
+    src: url("../fonts/yellowtail/Yellowtail-Regular.otf"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 

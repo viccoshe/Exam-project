@@ -1,0 +1,143 @@
+.section-categories {
+    background: #EFF6F1;
+    padding: 140px 0;
+}
+
+.section-categories .categories-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 33.333%;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.section-categories .categories-wrapper .categories__item  {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    width: 460px;
+    height: 580px;
+}
+.section-categories .categories-wrapper .categories__juice {
+    background-image: url(../../img/juice_1.png);
+    margin-right: 30px;
+}
+
+.section-categories .categories-wrapper .categories__food {
+    background-image: url(../../img/organic_food.png);
+    margin-right: 30px;
+}
+
+.section-categories .categories-wrapper .categories__cookies {
+    background-image: url(../../img/nuts_cookies.png);
+}
+
+.section-categories .categories-wrapper .categories__item img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.section-categories .categories-wrapper .categories__item {
+    width: 460px;
+    height: 580px;
+}
+
+.section-categories .categories-wrapper .categories__item .categories__button {
+    position: absolute;
+    left: calc(50% - 281px/2 + 0.5px);
+    top: calc(50% - 95px/2 + 0.5px);
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 95px;
+    width: 281px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-categories .categories-wrapper .categories__item .categories__button:hover {
+    background: rgba(126, 182, 147, 1);
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .section-categories .categories-wrapper {
+        width: 1280px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section-categories .categories-wrapper {
+        width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .section-categories .categories-wrapper {
+        width: 800px;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-categories .categories-wrapper .categories__item  {
+        position: relative;
+        max-height: 100%;
+        max-width: 100%;
+        width: 460px;
+        height: 460px;
+    }
+
+    .section-categories .categories-wrapper .categories__juice,
+    .section-categories .categories-wrapper .categories__food {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .section-categories .categories-wrapper {
+        width: 768px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .section-categories .categories-wrapper {
+        width: 640px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .section-categories .categories-wrapper {
+        max-width: 425px;
+        width: 100%;
+    }
+
+    .section-categories .categories-wrapper .categories__item  {
+        position: relative;
+        max-height: 100%;
+        max-width: 100%;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .section-categories .categories-wrapper {
+        max-width: 375px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-categories .categories-wrapper {
+        max-width: 375px;
+        width: 100%;
+    }
+}

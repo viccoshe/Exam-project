@@ -1,0 +1,12 @@
+.footer-map iframe {
+    width: 100%;
+    max-height: 620px;
+}
+
+@media only screen and (max-width: 1330px){
+    .header .header_bottom .header_img{
+        width: 554px;
+        height: 312px;
+        right: 0;
+    }
+}
